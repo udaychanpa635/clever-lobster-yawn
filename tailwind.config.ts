@@ -62,6 +62,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom colors for Lumina AI theme
+        'electric-violet': '#BF00FF', // Example hex for Electric Violet
+        'cyber-lime': '#CCFF00',     // Example hex for Cyber Lime
+        'deep-charcoal': '#1A1A1A',  // Example hex for Deep Charcoal
+        'midnight-black': '#050505', // Example hex for Midnight Black
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -85,10 +90,19 @@ export default {
             height: "0",
           },
         },
+        shimmer: {
+          from: {
+            backgroundPosition: "0 0",
+          },
+          to: {
+            backgroundPosition: "-200% 0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        shimmer: "shimmer 2s infinite linear",
       },
     },
   },
