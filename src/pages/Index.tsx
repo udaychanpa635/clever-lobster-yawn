@@ -5,8 +5,9 @@ import Hero from "@/components/sections/Hero";
 import SocialProof from "@/components/sections/SocialProof";
 import BentoGridFeatures from "@/components/sections/BentoGridFeatures";
 import HowItWorks from "@/components/sections/HowItWorks";
+import NewsletterSignup from "@/components/sections/NewsletterSignup"; // Import the new component
 import CallToAction from "@/components/sections/CallToAction";
-import Footer from "@/components/layout/Footer"; // Import the new Footer component
+import Footer from "@/components/layout/Footer";
 
 const Index = () => {
   return (
@@ -16,8 +17,9 @@ const Index = () => {
       <SocialProof />
       <BentoGridFeatures />
       <HowItWorks />
+      <NewsletterSignup /> {/* Add the NewsletterSignup component here */}
       <CallToAction />
-      <Footer /> {/* Add the Footer component here */}
+      <Footer />
     </div>
   );
 };
