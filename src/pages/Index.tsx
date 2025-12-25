@@ -1,12 +1,12 @@
 "use client";
 
-import { MadeWithDyad } from "@/components/made-with-dyad";
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import SocialProof from "@/components/sections/SocialProof";
 import BentoGridFeatures from "@/components/sections/BentoGridFeatures";
 import HowItWorks from "@/components/sections/HowItWorks";
-import CallToAction from "@/components/sections/CallToAction"; // Import the new component
+import CallToAction from "@/components/sections/CallToAction";
+import Footer from "@/components/layout/Footer"; // Import the new Footer component
 
 const Index = () => {
   return (
@@ -16,8 +16,8 @@ const Index = () => {
       <SocialProof />
       <BentoGridFeatures />
       <HowItWorks />
-      <CallToAction /> {/* Add the CallToAction component here */}
-      <MadeWithDyad />
+      <CallToAction />
+      <Footer /> {/* Add the Footer component here */}
     </div>
   );
 };
