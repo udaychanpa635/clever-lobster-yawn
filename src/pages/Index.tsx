@@ -6,6 +6,7 @@ import Hero from "@/components/sections/Hero";
 import SocialProof from "@/components/sections/SocialProof";
 import BentoGridFeatures from "@/components/sections/BentoGridFeatures";
 import HowItWorks from "@/components/sections/HowItWorks";
+import CallToAction from "@/components/sections/CallToAction"; // Import the new component
 
 const Index = () => {
   return (
@@ -15,7 +16,7 @@ const Index = () => {
       <SocialProof />
       <BentoGridFeatures />
       <HowItWorks />
-      {/* Other sections will be added here */}
+      <CallToAction /> {/* Add the CallToAction component here */}
       <MadeWithDyad />
     </div>
   );
